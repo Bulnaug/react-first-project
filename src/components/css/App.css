@@ -1,0 +1,23 @@
+.App {
+  display: grid;
+    grid-template-rows: 5em auto auto;
+  background: #ccc;
+}
+
+.app-header {
+  grid-column-end: last;
+  grid-column-start: 1;
+}
+
+.app-footer {
+  grid-row-start: last;
+  grid-column-start: 1;
+  grid-column-end: last;
+}
+
+.app-body, .app-header > div, .app-footer > div {
+  max-width: 1250px;
+  width: 100%;
+  margin: auto;
+  padding: 1em 2em;
+}

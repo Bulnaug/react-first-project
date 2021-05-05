@@ -1,0 +1,6 @@
+.app-body {
+    display: grid;
+      grid-template-columns: 3fr 9fr;
+      grid-gap: 2em;
+    min-height: calc(100vh - 6em);
+}

@@ -1,0 +1,22 @@
+.app-footer {
+	background: #282c34;
+    border-top: 1px solid #61dafb;
+}
+
+.app-footer > div {
+	display: flex;
+    justify-content: space-between;
+}
+
+.app-footer li {
+    line-height: 1.75em;	
+} 
+
+.app-footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.app-footer a:hover {
+	color: #61dafb;
+}

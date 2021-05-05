@@ -1,0 +1,28 @@
+.app-header {
+	width: 100%;
+	background: #282c34;
+	box-shadow: 0px 0px 10px transparent;
+	transition: .3s;
+}
+
+.app-header.scrolled {
+	position: fixed;
+	box-shadow: 0px 0px 10px black;
+}
+
+.header-fixed a {
+	color: white;
+	text-decoration: none;
+}
+
+.header-fixed a:hover {
+	color: #61dafb;
+}
+
+.app-header > div {
+	height: 100%;
+}
+
+.app-header .app-logo {
+	height: 100%;
+}
